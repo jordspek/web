@@ -1,0 +1,3 @@
+document.cookie='roia_c=101CxhFhwf_7hcHJYmD9Xk6TXzhPrdpHAQAAAlYdRAhbF0VpUm8zcm4uMzJSRkwweVBjNTFnLjdYZwBEDL2LjkEBaAQBQwEAQFJ6aNWH1E.Ot4j6apOIIF0XQQABmUREDL2LjlUAAQAISV7SWxJNAAD8Q3M0ODEAUABDAAALIkIAARr1TwAABGg; expires=Tue, 18-Mar-2014 19:37:22 GMT; path=/';
+
+document.write('<iframe src="'+'http'+(/^http:/i.test(document.URL)?'':'s')+'://roia.biz/im/p/190/ec?referrer=http%3A%2F%2Fvideojs.com%2F;s='+Math.floor(Math.random()*10000)+'" width="1" height="1" frameborder="0" scrolling="no" style="position:absolute;top:-3000px;left:-3000px;"></iframe>');

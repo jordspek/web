@@ -1,0 +1,70 @@
+/* Reset (adapted) - http://developer.yahoo.com/yui/3/cssreset/
+---------------------------------------------------------*/
+html{ color:#000; background:#fff; }
+body { line-height: 1; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,label,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,th,var { font-style:normal; font-weight:normal; }
+em strong { font-style: italic; }
+li { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; font-variant:normal; }
+sup { vertical-align:text-top; }
+sub { vertical-align:text-bottom; }
+input,textarea,select { font-family:inherit; font-size:inherit; font-weight:inherit; }
+input,textarea,select { *font-size:100%; }
+legend { color:#000; }
+
+/* Base (adapted) - Adapted from http://developer.yahoo.com/yui/3/cssbase/
+---------------------------------------------------------*/
+h1 { font-size:138.5%; }
+h2 { font-size:123.1%; }
+h3 { font-size:108%; }
+h1,h2,h3,h4,h5,h6 { margin:0 0 10px; }
+h1,h2,h3,h4,h5,h6,strong { font-weight:bold; }
+p,fieldset,table,pre { margin-bottom:1.5em; }
+p img { float: left; margin: 0 1.5em 1.5em 0; padding: 0; }
+p img.right { float: right; margin: 0 0 1.5em 1.5em; }
+ul, ol, dl { margin: 0 0 1.5em 1.5em; padding: 0; }
+ol li { list-style:decimal outside; }
+ul li { list-style:disc outside; }
+dl dd { margin-left:1em; }
+th,td { border:1px solid #000; padding: 0; }
+th { font-weight:bold; text-align:center; }
+input[type=text],input[type=password],textarea { width:12.25em; *width:11.9em; background-color: #fff; }
+abbr,acronym { border-bottom:1px dotted #000; cursor:help; }
+address { margin: 0 0 1.5em; font-style: italic; }
+em,dfn { font-style: italic; }
+dfn { font-weight: bold; }
+del { color:#888; text-decoration: line-through; }
+blockquote { margin: 1.5em; color: #666; font-style: italic; }
+caption { margin-bottom: 1.5em; text-align:center; }
+
+/* Fonts (adapted) - http://developer.yahoo.com/yui/3/cssfonts/
+---------------------------------------------------------*/
+html { font:13px/1.231 arial,helvetica,clean,sans-serif; *font-size:small; *font:x-small; }
+body { font-size: 10px; color: #666666; font-family: "Helvetica Neue", Helvetica, Arial, clean, sans-serif; }
+select,input,button,textarea { font:119% arial,helvetica,clean,sans-serif; }
+table { font-size:inherit; font:100%; }
+pre,code,kbd,samp,tt { font-family:monospace; *font-size:108%; line-height: 1.5;  }
+pre { white-space: pre; }
+p { font-size: 120%; line-height: 1.5; }
+ul li, ol li { font-size: 120%; line-height: 1.5; }
+ul li li, ol li li { font-size: 100%; }
+
+/* Clear Fix - http://perishablepress.com/press/2009/12/06/new-clearfix-hack/
+---------------------------------------------------------*/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .clearfix { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/* Misc classes
+-------------------------------------------------------------- */
+.hide       { display: none; }
+.first      { margin-left: 0; }
+.last       { margin-right: 0; }
+.top        { margin-top: 0; }
+.bottom     { margin-bottom :0; }
